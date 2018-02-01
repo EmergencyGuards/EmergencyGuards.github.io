@@ -1,4 +1,4 @@
-document.DOMContentLoaded(() => {
+document.addEventListener("DOMContentLoaded", () => {
     let form = document.getElementById("form");
-    debugger;
+    alert("working");
 })
