@@ -7,6 +7,9 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+
 	</head>
 	<body class="landing">
 		<div id="page-wrapper">
@@ -82,13 +85,13 @@
 					<h2>Sign up for our mailing list</h2>
 					<p>Receive special promotions and offers from emergencyguards.com</p>
 
-					<form action="mailto:madhavah@gmail.com" method="GET">
+					<form action="https://formspree.io/madhavah@gmail.com">
 						<div class="row uniform 50%">
 							<div class="8u 12u(mobilep)">
 								<input type="email" name="email" id="email" placeholder="Email Address" />
 							</div>
 							<div class="4u 12u(mobilep)">
-								<input type="submit" value="Sign Up" class="fit" />
+								<input id="submit-button" type="submit" value="Sign Up" class="fit" />
 							</div>
 						</div>
 					</form>
