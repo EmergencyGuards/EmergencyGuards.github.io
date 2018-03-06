@@ -3763,3 +3763,10 @@
 	#h2 {
 	  font-weight: bold;
 	}
+	
+	#logo-image {
+		display: block;
+		float: left;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
