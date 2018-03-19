@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
-  $("#form").on("submit", () => {
+  window.setTimeout(() => {
+      $("#form").on("submit", () => {
     $("#email").val("");
   });
+  }, 0)
 });
