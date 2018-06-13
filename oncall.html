@@ -12,6 +12,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" async></script>
         <script type="text/javascript" src="main.js" async></script>
         <link rel="icon" href="./images/shield.png" />
+        <script src='https://www.google.com/recaptcha/api.js'></script>
 	</head>
 	<body itemscope itemtype="http://schema.org/Organization" class="landing">
 		<div id="page-wrapper">
@@ -74,10 +75,11 @@
 					<p>Receive special promotions and offers from emergencyguards.com</p>
 
 					<form id="form" target="_blank" action="https://formspree.io/info@guardservicesusa.com" method="POST" onsubmit="">
-						<div class="row uniform 50%">
+						<div class="row uniform 50% center-form-inputs">
 							<div class="8u 12u(mobilep)">
 								<input type="email" name="email" id="email" placeholder="Email Address" />
 							</div>
+							<div class="g-recaptcha" data-sitekey="6LcJ2F4UAAAAAHsHChVUqxT3lpAbwewzLRGNbs4A"></div>
 							<div class="4u 12u(mobilep)">
 								<input id="submit-button" type="submit" value="Sign Up" class="fit" />
 							</div>

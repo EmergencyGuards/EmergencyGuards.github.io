@@ -3771,3 +3771,12 @@
 		margin-left: 10px !important;
 		background-color: red !important;
 	}
+	
+	 .center-form-inputs {
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .center-form-inputs div {
+	margin: auto;
+  }
